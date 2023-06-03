@@ -1,15 +1,15 @@
 
 :root {
-  --amarelo: #ffbb33
+  --amarelo: #0a3876
   
 }
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: var(--amarelo);
-  background-color: #222;
+  background-color: #fffafa;
 }
 
 a {
@@ -32,9 +32,9 @@ h6 {
   color: var(--amarelo);
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
+
+
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -52,7 +52,7 @@ h6 {
 .back-to-top i {
   font-size: 28px;
   color: var(--amarelo);
-  background-color: #fff;
+  background-color: #fffafa;
   border-radius: 100%;
   line-height: 0;
 }
@@ -64,9 +64,7 @@ h6 {
   opacity: 1;
 }
 
-/*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
+/
 #preloader {
   position: fixed;
   top: 0;
@@ -83,7 +81,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid ##FDFD96;
+  border: 6px solid;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -119,6 +117,7 @@ h6 {
   transition: all 0.5s;
   padding: 15px;
   overflow-y: auto;
+  color: var(--amarelo);
 }
 
 @media (max-width: 991px) {
@@ -162,13 +161,12 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: ##FDFD96;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  background: var(--amarelo);
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -214,7 +212,8 @@ h6 {
 .nav-menu .active span,
 .nav-menu .active:focus span,
 .nav-menu li:hover>a span {
-  color: #222;
+  color: #fffafa;
+  font-weight: bold;
 }
 
 .nav-menu a:hover,
@@ -227,6 +226,37 @@ h6 {
 .nav-menu li:hover>a span {
   display: block;
 }
+
+.bxl-linkedin {
+  color: var(--amarelo);
+}
+
+.bxl-instagram {
+  color: var(--amarelo);
+}
+
+.bx-home {
+  color: #fffafa;
+}
+
+.bx-user {
+  color: #fffafa;
+}
+
+.bx-file-blank {
+  color: #fffafa;
+}
+
+.bx-book-content {
+  color: #fffafa;
+}
+
+.bx-envelope {
+  color: #fffafa;
+}
+
+
+
 
 
 .mobile-nav-toggle {
@@ -361,7 +391,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: var(--amarelo);
 }
 
 .skills .progress .skill .val {
@@ -408,7 +438,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #272829;
+  background: #ededed;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -435,8 +465,8 @@ section {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #222;
-  border: 2px solid #FDFD96;
+  background: #ededed;
+  border: 2px solid #00A8FF;
 }
 
 
@@ -667,7 +697,7 @@ section {
 
 .contact .info {
   width: 100%;
-  background: #222;
+  
 }
 
 .contact .info i {
@@ -688,14 +718,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #fff;
+  color: var(--amarelo);
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #fff;
+  color: var(--amarelo);
 }
 
 .contact .info .email,
@@ -735,6 +765,7 @@ section {
   font-family: "Poppins", sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
+  color: #fff;
 }
 
 #footer p {
@@ -751,8 +782,8 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: var(--amarelo);
-  color: white;
+  background: #fffafa;
+  color: #fffafa;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -763,9 +794,12 @@ section {
   transition: 0.3s;
 }
 
+
+
+
 #footer .social-links a:hover {
-  background: #fff;
-  color: var(--amarelo);
+  background: var(--amarelo);
+  color: white;
   text-decoration: none;
 }
 
