@@ -182,7 +182,8 @@ h6 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: var(--amarelo);
+  color: white;
+  font-weight: bold;
   
 }
 
@@ -542,7 +543,9 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
 }
+
 
 .portfolio .portfolio-wrap .portfolio-info::before {
   display: block;
