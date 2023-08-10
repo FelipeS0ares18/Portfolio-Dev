@@ -716,15 +716,19 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.contact .info h4 {
+.link{
   padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 200px;
   margin-bottom: 5px;
   color: var(--amarelo);
+
 }
 
-.contact .info p {
+
+
+.contact .info p
+ {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
@@ -734,7 +738,11 @@ section {
 .contact .info .email,
 .contact .info .phone {
   margin-top: 40px;
+  
 }
+
+
+
 
 
 
