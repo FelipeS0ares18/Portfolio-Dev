@@ -1,6 +1,6 @@
 
 :root {
-  --azul: #0a3876
+  --azul: #000000
   
 }
 
@@ -8,17 +8,17 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: var(--amarelo);
+  color: var(--azul);
   background-color: #fffafa;
 }
 
 a {
-  color: var(--amarelo);
+  color: var(--azul);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--amarelo);
+  color: var(--azul);
   text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  color: var(--amarelo);
+  color: var(--azul);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -51,7 +51,7 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: var(--amarelo);
+  color: var(--azul);
   background-color: #fffafa;
   border-radius: 100%;
   line-height: 0;
@@ -117,7 +117,7 @@ h6 {
   transition: all 0.5s;
   padding: 15px;
   overflow-y: auto;
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 @media (max-width: 991px) {
@@ -127,7 +127,7 @@ h6 {
     
     left: -300px;
     background-color: #272829;
-    color: var(--amarelo);
+    color: var(--azul);
   }
 }
 
@@ -166,7 +166,7 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: var(--amarelo);
+  background: var(--azul);
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -220,7 +220,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu li:hover>a {
   width: 100%;
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 .nav-menu a:hover span,
@@ -229,11 +229,11 @@ h6 {
 }
 
 .bxl-linkedin {
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 .bxl-instagram {
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 .bx-home {
@@ -293,7 +293,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle {
-  color: var(--amarelo);
+  color: var(--azul);
   font-weight: bold;
 }
 
@@ -307,7 +307,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 .section-title h2 {
@@ -317,7 +317,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 .section-title h2::before {
@@ -337,7 +337,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  color: var(--amarelo);
+  color: var(--azul);
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -350,7 +350,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 .about .content ul {
@@ -395,7 +395,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 .skills .progress .skill .val {
@@ -411,7 +411,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: var(--amarelo);
+  background-color: var(--azul);
 }
 
 
@@ -420,13 +420,13 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid var(--amarelo);
+  border-left: 2px solid var(--azul);
   position: relative;
 }
 
@@ -436,7 +436,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: var(--amarelo);
+  color: var(--azul);
   margin-bottom: 10px;
 }
 
@@ -504,7 +504,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -708,7 +708,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: var(--amarelo);
+  color: var(--azul);
   float: left;
   width: 44px;
   height: 44px;
@@ -724,7 +724,7 @@ section {
   font-size: 17px;
   font-weight: 200px;
   margin-bottom: 5px;
-  color: var(--amarelo);
+  color: var(--azul);
 
 }
 
@@ -735,7 +735,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: var(--amarelo);
+  color: var(--azul);
 }
 
 .contact .info .email,
